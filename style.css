@@ -1,0 +1,209 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
+
+body {
+  background-color: rgba(134, 161, 111, 0.682);
+  color: rgb(27, 48, 27);
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+input {
+  font-size: 25px;
+}
+
+p {
+  font-size: 10px;
+}
+
+.header {
+  font-size: 25px;
+}
+
+/* PICTURE */
+.frog {
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+  box-shadow: 1px 1px 25px rgb(39, 56, 23);
+}
+
+.info p {
+  color: rgb(54, 42, 20);
+  text-decoration: overline underline;
+  /* text-transform: uppercase; ВСЕ ЗАГЛАВНЫЕ */
+  /* text-transform: capitalize; Все Слова С Большой Буквы */
+  /* letter-spacing: 2px; расстояние между буквами */
+  /* word-spacing: 20px; расстояние между отдельными словами */
+}
+
+.socialHeader {
+  margin: 5px;
+}
+
+.social {
+  background-color: rgb(155, 190, 123);
+  padding: 0 20px;
+  border: 2px solid darkgreen;
+  /* border-bottom-style: dotted;  Изменение стиля нижней границы (точки)*/
+  margin-bottom: 5%;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+.telegram {
+  color: rgb(63, 111, 63);
+  text-shadow: 1px 1px 1px;
+  text-decoration: none;
+}
+
+.telegram:hover,
+a:hover {
+  text-decoration: underline;
+}
+
+.telegram:active,
+a:active {
+  color: rgb(65, 67, 108);
+}
+
+/* .telegram:visited {
+    color: rgb(2, 153, 2);
+} */
+
+a {
+  text-decoration: none;
+  color: rgb(90, 161, 57);
+  text-shadow: 1px 1px 1px;
+}
+
+.card {
+  border-radius: 15px;
+  padding: 1% 0 4% 3%;
+  margin-bottom: 30px;
+}
+
+.table {
+  width: 100%;
+  margin-top: -15px;
+}
+
+.table td:nth-child(2) {
+  color: rgb(112, 114, 114);
+}
+
+.table td {
+  padding-bottom: 1%;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.container {
+  margin: 0 7%;
+}
+
+.bg-yellow {
+  background-color: rgba(208, 219, 138, 0.932);
+}
+
+.bg-blue {
+  background-color: rgba(147, 209, 209, 0.942);
+}
+
+.bg-violet {
+  background-color: rgba(230, 158, 230, 0.849);
+}
+
+.bg-green {
+  background-color: rgba(152, 224, 181, 0.91);
+}
+
+.info {
+  margin-bottom: 5%;
+  display: flex;
+}
+
+.info-text {
+  padding-left: 5%;
+}
+
+.contact {
+  margin-bottom: 20%;
+}
+
+.list {
+  padding-left: 30px;
+  line-height: 170%;
+  padding-right: 50px;
+}
+
+.socialText {
+  line-height: 170%;
+}
+
+.list li {
+  /* font-weight: bold; */
+  color: rgb(91, 89, 89);
+  border-bottom: 1px solid gray;
+}
+
+ol {
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: rgb(69, 69, 69);
+  color: aliceblue;
+  padding: 1%;
+
+  margin: 0 -10% -10% -9%;
+}
+
+.form-group label {
+  display: block;
+  color: rgb(75, 44, 22);
+}
+
+.form-group input,
+.form-group textarea {
+  margin-bottom: 1%;
+  width: 50%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent; /*прозрачная строка ввода*/
+  padding: 2% 0.5%;
+  font-family: inherit;
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+
+.form-group textarea {
+  font-size: 24px;
+}
+
+.input-submit {
+  background-color: rgb(198, 221, 211);
+  padding: 1%;
+  border-color: rgb(38, 116, 90);
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+}
+
+.input-submit:hover {
+  opacity: 0.85;
+}
+
+.shop input {
+  margin-bottom: 1%;
+}
